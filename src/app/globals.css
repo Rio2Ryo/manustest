@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Legacy global styles for Home component */
+@import "../../folder/App.css";
+
+/* Global heading styles */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #115e59;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
