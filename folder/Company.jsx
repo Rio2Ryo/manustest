@@ -134,7 +134,9 @@ const Company = () => {
           <div className="application-section">
             <div className="application-grid">
               <div className="application-card fade-in-up">
-                <h4 className="application-card-title">Terra Plus株式会社</h4>
+              <h4 className="application-card-title">
+                    {t('Terra Plus株式会社', 'Terra Plus Co., Ltd.')}
+                </h4>
                 <p className="application-card-description">
                   {t(
                     'MotherVegetables 原材料取り扱い',
@@ -179,7 +181,9 @@ const Company = () => {
               </div>
 
               <div className="application-card fade-in-up">
-                <h4 className="application-card-title">dotpb株式会社</h4>
+              <h4 className="application-card-title">
+                    {t('dotpb株式会社', 'dotpb Co., Ltd.')}
+                </h4>
                 <p className="application-card-description">
                   {t(
                     'マザーベジタブルおよびMVファクトリーの販売促進',
