@@ -224,7 +224,9 @@ const Company = () => {
               </div>
 
               <div className="application-card fade-in-up">
-                <h4 className="application-card-title">全国姉妹漁協推進協議会株式会社</h4>
+                <h4 className="application-card-title">
+                    {t('全国姉妹漁協推進協議会株式会社', 'National Sister Fisheries Promotion Council Co., Ltd.')}
+                </h4>
                 <p className="application-card-description">
                   {t(
                     '海業推進・全国の港へのMVファクトリー建設・全国の港でのマザーベジタブルの養殖・伊豆漁業協同組合との連携・JTB総研との連携',
