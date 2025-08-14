@@ -55,12 +55,15 @@ const Company = () => {
                 </tr>
                 <tr>
                   <td className="info-label">{t('代表', 'Representative')}</td>
-                  <td className="info-value">松浦　亮介</td>
+                  <td className="info-value">{t('松浦　亮介', 'Ryosuke Matsuura')}</td>
                 </tr>
                 <tr>
                   <td className="info-label">{t('本社所在地', 'Head Office Location')}</td>
                   <td className="info-value">
-                    〒103-0026　東京都中央区日本橋兜町5-1 兜町第１平和ビル3階
+                  {t(
+                      '〒103-0026　東京都中央区日本橋兜町5-1 兜町第１平和ビル3階',
+                      '3rd Floor, Kabutocho Dai-ichi Heiwa Building, 5-1 Nihonbashi Kabutocho, Chuo-ku, Tokyo 103-0026, Japan'
+                    )}
                   </td>
                 </tr>
               </tbody>
