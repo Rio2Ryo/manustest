@@ -42,7 +42,7 @@ const Company = () => {
               <tbody>
                 <tr>
                   <td className="info-label">{t('会社名', 'Company Name')}</td>
-                  <td className="info-value">Algae International Japan株式会社</td>
+                  <td className="info-value">{t('Algae International Japan株式会社', 'Algae International Japan Co., Ltd.')}</td>
                 </tr>
                 <tr>
                   <td className="info-label">{t('事業内容', 'Business Content')}</td>
