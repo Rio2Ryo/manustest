@@ -58,6 +58,10 @@ const Company = () => {
                   <td className="info-value">{t('松浦　亮介', 'Ryosuke Matsuura')}</td>
                 </tr>
                 <tr>
+                  <td className="info-label">{t('International Director', 'International Director')}</td>
+                  <td className="info-value">{t('Michael Choong Liat Lee', 'Michael Choong Liat Lee')}</td>
+                </tr>
+                <tr>
                   <td className="info-label">{t('本社所在地', 'Head Office Location')}</td>
                   <td className="info-value">
                   {t(
