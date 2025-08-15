@@ -1795,7 +1795,8 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  max-width: 860px;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
 .premium-partner-card {
