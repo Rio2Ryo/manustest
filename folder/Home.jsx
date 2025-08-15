@@ -164,34 +164,89 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 連携プロジェクトセクション */}
-      <section className="section section-premium-partners">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title" style={{ color: '#ffffff', fontWeight: 'bold' }}>
-              {t('国内外連携プロジェクト', 'Domestic and International Partnership Projects')}
-            </h2>
-            <p className="section-subtitle" style={{ color: '#ffffff', opacity: 0.9 }}>
-              {t('国境を越えた協働体制が、Mother Vegetablesのグローバルな可能性を支えています。', 'Cross-border collaboration supports the global potential of Mother Vegetables.')}
-            </p>
-          </div>
+      <section className="section section-premium-partners" style={{ padding: '60px 0 0 0', background: '#006d65' }}>
+  <style>{`
+    .premium-partners-grid {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      gap: 24px;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin-inline: auto;
+    }
+    .premium-partner-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      padding: 28px 24px;
+      min-width: 240px;
+      text-align: center;
+      backdrop-filter: blur(2px);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .premium-partner-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,.25);
+    }
+    .premium-partner-number {
+      width: 56px;
+      height: 56px;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+    }
+    .premium-partner-title {
+      color: #fff;
+      font-weight: 600;
+      margin: 0;
+    }
+    .section-title{
+    opacity: 1.0!important;
+    }
+    @media (max-width: 768px) {
+      .premium-partners-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      .premium-partner-card {
+        width: 100%;
+        max-width: 340px;
+      }
+    }
+  `}</style>
 
-          <div className="premium-partners-grid">
-            <div className="premium-partner-card fade-in-up">
-              <div className="premium-partner-number">01</div>
-              <h4 className="premium-partner-title">{t('JTB総合研究所', 'JTB Tourism Research & Consulting')}</h4>
-            </div>
-            <div className="premium-partner-card fade-in-up">
-              <div className="premium-partner-number">02</div>
-              <h4 className="premium-partner-title">{t('水産庁', 'Fisheries Agency')}</h4>
-            </div>
-            <div className="premium-partner-card fade-in-up">
-              <div className="premium-partner-number">03</div>
-              <h4 className="premium-partner-title">{t('静岡県・河津町', 'Shizuoka Prefecture & Kawazu Town')}</h4>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container">
+    <div className="section-header" style={{ textAlign: 'center', marginBottom: '30px' }}>
+      <h2 className="section-title" style={{ color: '#ffffff', fontWeight: 'bold' }}>
+        国内外連携プロジェクト
+      </h2>
+      <p className="section-subtitle" style={{ color: '#ffffff', opacity: 0.9 }}>
+        国境を越えた協働体制が、Mother Vegetablesのグローバルな可能性を支えています。
+      </p>
+    </div>
+
+    <div className="premium-partners-grid">
+      <div className="premium-partner-card">
+        <div className="premium-partner-number">01</div>
+        <h4 className="premium-partner-title">JTB総合研究所</h4>
+      </div>
+      <div className="premium-partner-card">
+        <div className="premium-partner-number">02</div>
+        <h4 className="premium-partner-title">水産庁</h4>
+      </div>
+      <div className="premium-partner-card">
+        <div className="premium-partner-number">03</div>
+        <h4 className="premium-partner-title">静岡県・河津町</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* CTAセクション */}
       <section className="section">
