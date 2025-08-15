@@ -406,7 +406,6 @@ p {
 .section-title {
   background: linear-gradient(135deg, var(--primary-600), var(--primary-800));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 1rem;
 }
@@ -1794,7 +1793,7 @@ p {
 /* プレミアムパートナーグリッド */
 .premium-partners-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin: 3rem 0;
 }

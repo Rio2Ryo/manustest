@@ -176,7 +176,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="premium-partners-grid mx-auto">
+          <div className="premium-partners-grid">
             <div className="premium-partner-card fade-in-up">
               <div className="premium-partner-number">01</div>
               <h4 className="premium-partner-title">{t('JTB総合研究所', 'JTB Tourism Research & Consulting')}</h4>
